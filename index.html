@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Mogadishu Restaurants Gallery</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#f5f5f5;
+    padding:20px;
+}
+
+h1{
+    text-align:center;
+    color:#2e8b57;
+    margin-bottom:30px;
+}
+
+.container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+.card{
+    background:pink;
+    width:280px;
+    padding:15px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+.card img{
+    width:180px;
+    height:180px;
+    object-fit:cover;
+    border-radius:50%;
+    border:3px solid #2e8b57;
+}
+
+.card h3{
+    color:#2e8b57;
+    margin-top:15px;
+    margin-bottom:10px;
+}
+
+.card p{
+    color:#555;
+    line-height:1.5;
+}
+
+/* Tablet */
+@media(max-width:768px){
+    .card{
+        width:45%;
+    }
+}
+
+/* Mobile */
+@media(max-width:480px){
+    .card{
+        width:100%;
+    }
+}
+
+</style>
+
+</head>
+<body>
+
+<h1>food mune Gallery</h1>
+
+<div class="container">
+
+<div class="card">
+<img src="jaa pizzeria.jpg" alt="Jaa Pizzeria">
+<h3>Jaa Pizzeria</h3>
+<p>Jaa Pizzeria waxay caan ku tahay pizza macaan oo noocyo badan leh. Waxay bixisaa adeeg tayo leh waxayna ku taallaa Muqdisho.</p>
+</div>
+
+<div class="card">
+<img src="fijaan coffee.jpg" alt="Fijian Coffee">
+<h3>Fijian Coffee</h3>
+<p>Fijian Coffee waxay bixisaa coffee tayo sare leh, cappuccino, latte iyo cabitaanno kale oo casri ah.</p>
+</div>
+
+<div class="card">
+<img src="onkod.jpg" alt="Onkod">
+<h3>Onkod Restaurant</h3>
+<p>Onkod Restaurant waxay bixisaa cuntooyin Soomaali iyo kuwo caalami ah. Waxay caan ku tahay adeeg wanaagsan.</p>
+</div>
+
+<div class="card">
+<img src="sambuusa.jpg" alt="Sambuusa">
+<h3>Sambuusa</h3>
+<p>Halkan waxaa laga helaa sambuus cusub, shaah iyo cuntooyin fudud oo aad loo jecel yahay.</p>
+</div>
+
+<div class="card">
+<img src="salool.jpg" alt="Salool">
+<h3>Salool Restaurant</h3>
+<p>Salool waxay bixisaa bariis, baasto, hilib iyo cuntooyin dhaqameed Soomaali ah.</p>
+</div>
+
+<div class="card">
+<img src="paaparoti.jpg" alt="Pappa Roti">
+<h3>Pappa Roti</h3>
+<p>Pappa Roti waxay caan ku tahay bun kulul, coffee iyo macmacaan kala duwan oo casri ah.</p>
+</div>
+
+<div class="card">
+<img src="arabic food.jpg" alt="Arabic Food">
+<h3>Arabic Food</h3>
+<p>Waxay bixisaa Mandi, Kabsa, Shawarma iyo cuntooyin Carbeed oo dhadhan fiican leh.</p>
+</div>
+
+<div class="card">
+<img src="joo's kitchen.jpg" alt="Joo's Kitchen">
+<h3>Joo's Kitchen</h3>
+<p>Joo's Kitchen waxay bixisaa burgers, sandwiches, pizza iyo cabitaanno kala duwan.</p>
+</div>
+
+</div>
+
+</body>
+</html>
